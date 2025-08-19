@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Indian Recipes</title>
+ 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<section id="videoContainer" style="display: none; padding: 20px;background : white ">
+    <h2 class="hide">Recipe Videos</h2>
+    <ul id="videoList"></ul>
+</section>
+
+    <header>
+        <h1> Indian Recipes</h1>
+        <nav class = "navigation">
+            <a href="#" id="homeLink">Home</a>
+            <a href="#" id="recipesLink">Recipes</a>
+            <a href="#" id="aboutLink">About</a>
+            
+            <a href="#" id = "contactLink">Contact</a>
+        </nav>
+    </header>
+
+ <section class="recipe-container">
+        <div class="recipe-card">
+            <img src="idli.webp">
+            
+            <h3>Idli</h3>
+            <p>Soft, fluffy steamed rice cakes served with chutney and sambar.</p>
+            <button onclick="showRecipe('idli')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="dosa.jpeg" >
+            <h3>Dosa</h3>
+            <p>Thin, crispy crepes made from fermented rice and lentil batter.</p>
+            <button onclick="showRecipe('dosa')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="sambaar.jpeg">
+            <h3>Sambar</h3>
+            <p>A spicy and tangy lentil-based vegetable stew.</p>
+            <button onclick="showRecipe('sambaar')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="pongal.jpeg" >
+            <h3>Pongal</h3>
+            <p>A comforting dish made from rice, moong dal, and spices.</p>
+            <button onclick="showRecipe('pongal')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="vada.jpeg">
+            <h3>Vada</h3>
+            <p>Crispy fried lentil donuts served with coconut chutney.</p>
+            <button onclick="showRecipe('vada')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="rasam.jpeg" >
+            <h3>Rasam</h3>
+            <p>A tangy, peppery soup made with tamarind and spices.</p>
+            <button onclick="showRecipe('rasam')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="upma.jpeg" >
+            <h3>Upma</h3>
+            <p>Savory semolina porridge cooked with vegetables and spices.</p>
+            <button onclick="showRecipe('upma')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="curd-rice.jpeg">
+            <h3>Curd-rice</h3>
+            <p>Cooling yogurt rice seasoned with green chilies and curry leaves.</p>
+            <button onclick="showRecipe('curd-rice')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="hyderabadi-biryani.jpeg">
+            <h3>Hyderabadi-biryani</h3>
+            <p>Fragrant rice layered with spiced meat or vegetables.</p>
+            <button onclick="showRecipe('hyderabadi-biryani')">View Recipe</button>
+        </div>
+
+        <div class="recipe-card">
+            <img src="puttu.jpeg">
+            <h3>Puttu</h3>
+            <p>Steamed cylindrical rice cakes layered with coconut.</p>
+            <button onclick="showRecipe('puttu')">View Recipe</button>
+        </div>
+    </section>
+
+   <script src="javascript.js"></script>
+   </body>
+   </html>
