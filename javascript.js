@@ -226,5 +226,7 @@ recipesLink.addEventListener("click", (e) => {
     }
 });
 
+const aboutLink = document.getElementById("aboutLink");
+const about = document.getElementById("about");
 
 
